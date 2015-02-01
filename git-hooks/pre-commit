@@ -1,0 +1,18 @@
+#!/usr/bin/env ruby
+
+%x(git rev-parse --verify HEAD >/dev/null 2>&1)
+
+against = '4b825dc642cb6eb9a060e54bf8d69288fbee4904'
+against = 'HEAD' if $?.exitstatus == 0
+diff = `git diff --cached --no-color #{against}`
+patterns = [/ puts/, /FIXME/, /Rails\.logger/, /focus.*true/, /debugger/, /binding\.pry/, /Pry\.rescue/]
+
+patterns.each do |pat|
+  matches = diff.split("\n").grep(/^\+/).grep(pat)
+  if !matches.empty?
+    puts "Error: you are trying to commit something matching #{pat}. Use -n to override this hook."
+    puts "Matches:"
+    puts matches.join("\n")
+    exit 1
+  end
+end

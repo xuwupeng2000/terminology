@@ -1,0 +1,13 @@
+#!/bin/sh
+
+MIGRATED=`git diff $1 $2 --name-only | grep migrate | wc -l`
+if [ $MIGRATED -gt 0 ];
+then
+    echo "########### postcheckout: Migrations detected! ############"
+fi
+
+CHANGED=`git diff $1 $2 --name-only | grep Gemfile.lock | wc -l`
+if [ $CHANGED -gt 0 ];
+then
+    echo "########### postcheckout: Gemfile.lock has changed! ############"
+fi
