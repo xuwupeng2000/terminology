@@ -19,6 +19,7 @@ Plugin 'michaeljsmith/vim-indent-object'
 Plugin 'nelstrom/vim-textobj-rubyblock'
 
 " Look and feel
+Plugin 'croaky/vim-colors-github'
 Plugin 'nanotech/jellybeans.vim'
 Plugin 'w0ng/vim-hybrid'
 Plugin 'chriskempson/vim-tomorrow-theme'
@@ -33,7 +34,10 @@ Plugin 'jeetsukumaran/vim-markology'
 Plugin 'Yggdroot/indentLine'
 
 " Miscellaneous'
-Plugin 'ntpeters/vim-better-whitespace'
+Plugin 'pbrisbin/vim-mkdir'
+Plugin 'christoomey/vim-run-interactive'
+
+Plugin 'vim-scripts/file-line'
 Plugin 'mattn/gist-vim'
 Plugin 'tpope/vim-fugitive'
 Plugin 'mattn/emmet-vim'

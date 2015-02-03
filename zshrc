@@ -35,12 +35,8 @@ alias zc='vi ~/.zshrc'
 alias vc='vi ~/.vimrc'
 alias vd='cd ~/.vim'
 
-alias latesttag='git fetch --tags && git describe --abbrev=0 --tags'
-
-alias be='bundle exec'
-
 alias fig='cd ~/projects/figured'
 
-ssh-add ~/.ssh/jackwu-figured/id_rsa
 ssh-add ~/.ssh/xuwupeng2000//id_rsa
+ssh-add ~/.ssh/jackwu-figured/id_rsa
 clear

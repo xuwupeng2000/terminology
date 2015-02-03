@@ -5,10 +5,9 @@ filetype off
 
 so ~/.vim/plugins
 
-" Color
 set t_Co=256
 set background=dark
-"set cul
+
 hi CursorLine term=none cterm=none ctermbg=236
 "colorscheme Tomorrow
 "colorscheme jellybeans
@@ -91,6 +90,7 @@ cabbrev bc BundleClean
 cabbrev cs ColorSchemeBrowse
 
 " Neocomplcache
+let g:neocomplcache_enable_at_startup=1
 let g:neosnippet#snippets_directory='~/.vim/bundle/neosnippet-snippets/neosnippets/'
 
 imap <C-k>     <Plug>(neosnippet_expand_or_jump)
@@ -110,3 +110,6 @@ autocmd FileType eruby let b:surround_45 = "<% \r %>"
 
 filetype plugin on
 filetype plugin indent on
+
+" Rspec
+map <Leader>r :call RunCurrentSpecFile()<CR>
