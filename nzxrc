@@ -1,0 +1,26 @@
+# Setup the Proxy of NZX
+export RSYNC_PROXY=proxy.nzx.com:3128
+export http_proxy=http://proxy.nzx.com:3128
+export https_proxy=http://proxy.nzx.com:3128
+export ftp_proxy=http://proxy.nzx.com:3128
+
+# Severs
+alias wallaby='ssh deploy@wallaby'
+alias gx='ssh jwu@csu-gxmarket'
+
+alias dingo='ssh deploy@dingo'
+alias huntsman='ssh deploy@huntsman'
+alias moa='ssh deploy@moa'
+
+alias silverbass='ssh nzxcom-deploy@silverbass'
+
+#alias deploy-app1='ssh deploy@nzxcom-app1'
+#alias deploy-app2='ssh deploy@nzxcom-app2'
+
+alias app1='ssh jwu@nzxcom-app1'
+alias app2='ssh jwu@nzxcom-app2'
+
+# RECON UAT
+alias recon-c2='ssh deploy@wlu-ea-ap-c2'
+alias recon-c4='ssh deploy@wlu-ea-ap-c4'
+
