@@ -9,13 +9,15 @@ set t_Co=256
 set background=dark
 
 hi CursorLine term=none cterm=none ctermbg=236
-"colorscheme Tomorrow
+colorscheme Tomorrow
 "colorscheme jellybeans
 "colorscheme hybrid-light
-colorscheme hybrid
+"colorscheme hybrid
+"colorscheme Tomorrow-Night
+"colorscheme Tomorrow-Night-Eighties
 
 " Font
-set guifont=Inconsolata\ 12
+set guifont=Inconsolata\ 14
 
 syntax on
 
@@ -97,7 +99,6 @@ imap <C-k>     <Plug>(neosnippet_expand_or_jump)
 smap <C-k>     <Plug>(neosnippet_expand_or_jump)
 
 cabbrev ns NeoSnippetEdit -vertical -split
-cabbrev fu ZoomWin
 
 au VimEnter * RainbowParenthesesToggle
 au Syntax   * RainbowParenthesesLoadRound
@@ -113,3 +114,12 @@ filetype plugin indent on
 
 " Rspec
 map <Leader>r :call RunCurrentSpecFile()<CR>
+
+" ZoomWin
+nnoremap <c-w>z :ZoomWin<CR>
+
+" WhiteSpace
+nnoremap <Leader>s :ToggleWhitespace<CR>
+
+" Comment box
+map ,co O#<Esc>100A=<Esc>100\|D<CR>i#<CR><Esc>i##<Esc>100a=<Esc>100\|D<Esc>kA

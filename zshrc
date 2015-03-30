@@ -36,7 +36,3 @@ alias vc='vi ~/.vimrc'
 alias vd='cd ~/.vim'
 
 alias fig='cd ~/projects/figured'
-
-ssh-add ~/.ssh/xuwupeng2000//id_rsa
-ssh-add ~/.ssh/jackwu-figured/id_rsa
-clear
