@@ -17,7 +17,7 @@ colorscheme Tomorrow
 "colorscheme Tomorrow-Night-Eighties
 
 " Font
-set guifont=Inconsolata\ 14
+"set guifont=Inconsolata\ 14
 
 syntax on
 
