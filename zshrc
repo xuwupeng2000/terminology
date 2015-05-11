@@ -36,3 +36,7 @@ alias vc='vi ~/.vimrc'
 alias vd='cd ~/.vim'
 
 alias fig='cd ~/projects/figured'
+alias gitt='~/projects/figured/scripts/gitt'
+
+alias gbr="git for-each-ref --sort=committerdate refs/heads/ --format='%(HEAD) %(color:yellow)%(refname:short)%(color:reset) - %(color:red)%(objectname:short)%(color:reset) - %(contents:subject) - %(authorname) (%(color:green)%(committerdate:relative)%(color:reset))' |tail -n 15"
+function gbg() { git branch |grep "$@" ;}

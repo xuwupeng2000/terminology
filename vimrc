@@ -9,8 +9,8 @@ set t_Co=256
 set background=dark
 
 hi CursorLine term=none cterm=none ctermbg=236
-colorscheme primary
-"colorscheme Tomorrow
+"colorscheme primary
+colorscheme Tomorrow
 "colorscheme jellybeans
 "colorscheme hybrid-light
 "colorscheme hybrid
