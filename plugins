@@ -1,6 +1,3 @@
-" Vundle
-Plugin 'gmarik/vundle'
-
 " Utilities
 Plugin 'tomtom/tlib_vim'
 Plugin 'MarcWeber/vim-addon-mw-utils'
@@ -24,6 +21,7 @@ Plugin 'nanotech/jellybeans.vim'
 Plugin 'w0ng/vim-hybrid'
 Plugin 'chriskempson/vim-tomorrow-theme'
 Plugin 'altercation/vim-colors-solarized'
+Plugin 'google/vim-colorscheme-primary'
 
 Plugin 'vim-scripts/colorsupport.vim'
 
@@ -33,9 +31,18 @@ Plugin 'kien/rainbow_parentheses.vim'
 Plugin 'jeetsukumaran/vim-markology'
 Plugin 'Yggdroot/indentLine'
 
-" Miscellaneous'
+" Miscellaneous
+Plugin 'chrisbra/vim-diff-enhanced'
+Plugin 'int3/vim-extradite'
+Plugin 'duggiefresh/vim-easydir'
+Plugin 'tacahiroy/ctrlp-funky'
+Plugin 'gregsexton/gitv'
+Plugin 'gabesoft/vim-ags'
+
 Plugin 'pbrisbin/vim-mkdir'
 Plugin 'christoomey/vim-run-interactive'
+Plugin 'vim-scripts/ZoomWin'
+Plugin 'ntpeters/vim-better-whitespace'
 
 Plugin 'vim-scripts/file-line'
 Plugin 'mattn/gist-vim'
@@ -62,6 +69,11 @@ Plugin 'Shougo/neocomplcache'
 Plugin 'Shougo/neosnippet.vim'
 Plugin 'xuwupeng2000/neosnippet-snippets'
 
+" Super Ruby autocomplete
+" depending on
+" gem install rcodetools
+Plugin 'osyo-manga/vim-monster'
+
 " Language-related
 Plugin 'vim-ruby/vim-ruby'
 Plugin 'tpope/vim-rails'
@@ -83,4 +95,7 @@ Plugin 'cakebaker/scss-syntax.vim'
 Plugin 'ap/vim-css-color'
 
 Plugin 'hiukkanen/vim-hamlc'
+Plugin 'tpope/vim-haml'
+
+Plugin 'mustache/vim-mustache-handlebars'
 

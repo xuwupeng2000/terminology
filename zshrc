@@ -32,3 +32,5 @@ alias tmux="TERM=screen-256color-bce tmux"
 alias zc='vi ~/.zshrc'
 alias vc='vi ~/.vimrc'
 alias vd='cd ~/.vim'
+
+alias gbr="git for-each-ref --sort=committerdate refs/heads/ --format='%(HEAD) %(color:yellow)%(refname:short)%(color:reset) - %(color:red)%(objectname:short)%(color:reset) - %(contents:subject) - %(authorname) (%(color:green)%(committerdate:relative)%(color:reset))' |tail -n 15"
