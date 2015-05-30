@@ -13,10 +13,8 @@ source $ZSH/oh-my-zsh.sh
 # For OSX
 if [[ "$(uname)" == 'Darwin' ]]; then
   echo "OSX mode"
-  source ~/.rvm/scripts/rvm
 else
   echo "Linux mode"
-  source ~/.rvm/scripts/rvm
   alias o='nautilus'
   alias open='firefox'
   alias ack='ack-grep'
@@ -34,9 +32,3 @@ alias tmux="TERM=screen-256color-bce tmux"
 alias zc='vi ~/.zshrc'
 alias vc='vi ~/.vimrc'
 alias vd='cd ~/.vim'
-
-alias fig='cd ~/projects/figured'
-
-ssh-add ~/.ssh/xuwupeng2000//id_rsa
-ssh-add ~/.ssh/jackwu-figured/id_rsa
-clear
