@@ -10,3 +10,6 @@
 [submodule "myzsh"]
 	path = myzsh
 	url = git@github.com:robbyrussell/oh-my-zsh.git
+[submodule "hubflow"]
+	path = hubflow
+	url = git@github.com:datasift/gitflow.git
