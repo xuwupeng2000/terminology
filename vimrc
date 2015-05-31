@@ -1,5 +1,5 @@
 let mapleader=","
-set rtp+=~/.vim/vundle/
+set rtp+=~/.vim/terminology/vundle/
 call vundle#rc()
 filetype off
 
