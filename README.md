@@ -1,4 +1,4 @@
-Jack's Ruby development setup
+#Jack's Ruby development setup
 
 This is the configs of Jack Wu.
 This script is tested in Ubuntu, and it requires you have git on you system.
