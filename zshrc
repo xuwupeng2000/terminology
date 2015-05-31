@@ -38,4 +38,5 @@ alias gbr="git for-each-ref --sort=committerdate refs/heads/ --format='%(HEAD) %
 
 
 # Rbenv
+export PATH="$HOME/.rbenv/bin:$PATH"
 eval "$(rbenv init -)"
