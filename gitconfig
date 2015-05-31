@@ -1,0 +1,47 @@
+[user]
+	name = Jack Wu\n\n
+  username = xuwupeng2000
+	email = xuwupeng2000@gmail.com
+[http]
+[color]
+  status = auto
+  diff = auto
+  branch = auto
+  remote = auto
+  ui = 1
+[alias]
+  s = status -sb
+	dt = difftool
+  b = branch
+  d = diff
+  dc = diff --cached
+  co = checkout
+  cb = checkout -b
+  a = add
+  c = commit
+  p = push
+
+  l = log --graph --abbrev-commit --date=relative
+  la = log --graph --abbrev-commit --date=relative --all
+  lp = log -p
+
+	lg = log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --date=relative
+  who = "shortlog -ne --format='%h %s'"
+
+  delete = !sh -c 'git branch -D $1 && git push origin :$1' -
+[core]
+  editor = vim
+[github]
+  user = xuwupeng2000
+[push]
+	default = current
+[diff]
+	tool = vimdiff
+[merge]
+  tool = vimdiff
+[mergetool]
+	prompt = false
+[difftool]
+	prompt = true
+[credential]
+	helper = cache
