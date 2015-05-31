@@ -3,13 +3,17 @@
 git submodule init
 git submodule update
 
-ln -sf ./vimrc ~/.vimrc
-ln -sf ./gitconfig ~/.gitconfig
-ln -sf ./tmux.conf ~/.tmux.conf
+folder=$(pwd)
+echo "Current Folder: $folder"
+echo "$folder/vimrc"
+
+ln -sf "$folder/vimrc" ~/.vimrc
+ln -sf "$folder/gitconfig" ~/.gitconfig
+ln -sf "$folder/tmux.conf" ~/.tmux.conf
 
 # Zsh
-ln -sf ./myzsh ~/.myzsh
-ln -sf ./zshrc ~/.zshrc
+ln -sf "$folder/myzsh" ~/.myzsh
+ln -sf "$folder/zshrc" ~/.zshrc
 
 # Ruby
 rm -rf ~/.rbenv
