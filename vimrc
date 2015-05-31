@@ -3,7 +3,7 @@ set rtp+=~/.vim/terminology/vundle/
 call vundle#rc()
 filetype off
 
-so ~/.vim/plugins
+so ~/.vim/terminology/plugins
 
 set t_Co=256
 set background=dark
