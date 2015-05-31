@@ -1,8 +1,11 @@
-# "Jack's Ruby development setup"
+Jack's Ruby development setup
 
 This is the configs of Jack Wu.
+This script is tested in Ubuntu, and it requires you have git on you system.
 
-## What is included
+NOTE: iT WILL OVERWRITE YOUR OLD CONFIGS.
+
+### What is included
 
 A install script is included it can help you setup:
 - zsh
@@ -19,7 +22,6 @@ git clone git@github.com:xuwupeng2000/terminology.git && cd terminology && bash 
 - vim - fully configured
 - rbenv, ruby-build
 
-
 ### to install Ruby language do this:
 ```bash
 rbenv install 2.1.3
@@ -27,7 +29,8 @@ rbenv install 1.9.3
 
 ```
 
-before doing bundle install you need to install bundler
+### to install bundler do this:
+Before doing bundle install you need to install bundler
 ```bash
 gem install bundler
 
