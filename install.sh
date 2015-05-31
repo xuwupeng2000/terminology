@@ -7,6 +7,7 @@ folder=$(pwd)
 echo "Current Folder: $folder"
 echo "$folder/vimrc"
 
+ln -sf "$folder" ~/.vim
 ln -sf "$folder/vimrc" ~/.vimrc
 ln -sf "$folder/gitconfig" ~/.gitconfig
 ln -sf "$folder/tmux.conf" ~/.tmux.conf

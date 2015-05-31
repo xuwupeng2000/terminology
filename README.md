@@ -24,7 +24,8 @@ git clone git@github.com:xuwupeng2000/terminology.git && cd terminology && bash 
 
 ### to finish vim configs
 - Enter vim
-- Enter command mode by pressing :
+- Enter command mode
+- ENter the following command (From Vundle)
 ```bash
 BundleInstall
 
@@ -41,5 +42,12 @@ rbenv install 1.9.3
 Before doing bundle install you need to install bundler
 ```bash
 gem install bundler
+
+```
+
+### to install hubflow do this:
+```bash
+cd ./hubflow
+sudo ./install
 
 ```
