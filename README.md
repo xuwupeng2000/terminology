@@ -19,8 +19,16 @@ git clone git@github.com:xuwupeng2000/terminology.git && cd terminology && bash 
 
 ### After run the command above you should already have:
 - zsh with oh-my-zsh plugins
-- vim - fully configured
+- vim with configs
 - rbenv, ruby-build
+
+### to finish vim configs
+- Enter vim
+- Enter command mode by pressing :
+```bash
+BundleInstall
+
+```
 
 ### to install Ruby language do this:
 ```bash
