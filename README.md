@@ -1,8 +1,8 @@
-h2. "Jack's Ruby development setup"
+# "Jack's Ruby development setup"
 
 This is the configs of Jack Wu.
 
-h3 What is included
+## What is included
 
 A install script is included it can help you setup:
 - zsh
@@ -14,14 +14,13 @@ git clone git@github.com:xuwupeng2000/terminology.git && cd terminology && bash 
 
 ```
 
-h3
-After run the command above you should already have:
+### After run the command above you should already have:
 - zsh with oh-my-zsh plugins
 - vim - fully configured
 - rbenv, ruby-build
 
 
-to install Ruby language do this:
+### to install Ruby language do this:
 ```bash
 rbenv install 2.1.3
 rbenv install 1.9.3
