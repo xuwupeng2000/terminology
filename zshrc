@@ -1,14 +1,15 @@
 # Zsh configures
-ZSH=$HOME/.oh-my-zsh
+ZSH=$HOME/.myzsh
 ZSH_THEME="gentoo"
 DISABLE_CORRECTION="true"
-export EDITOR=vim
-
-export LC_ALL="en_NZ.UTF-8"
-# Enable some of the oh-my-zsh.sh plugins
-plugins=(gem git git-hubflow sublime rails rvm ruby) 
-
 source $ZSH/oh-my-zsh.sh
+
+export EDITOR=vim
+export LC_ALL="en_NZ.UTF-8"
+
+# Enable some of the oh-my-zsh.sh plugins
+plugins=(gem git git-hubflow sublime rails rbenv ruby)
+
 
 # For OSX
 if [[ "$(uname)" == 'Darwin' ]]; then
@@ -34,3 +35,7 @@ alias vc='vi ~/.vimrc'
 alias vd='cd ~/.vim'
 
 alias gbr="git for-each-ref --sort=committerdate refs/heads/ --format='%(HEAD) %(color:yellow)%(refname:short)%(color:reset) - %(color:red)%(objectname:short)%(color:reset) - %(contents:subject) - %(authorname) (%(color:green)%(committerdate:relative)%(color:reset))' |tail -n 15"
+
+
+# Rbenv
+eval "$(rbenv init -)"
