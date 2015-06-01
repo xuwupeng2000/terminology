@@ -39,10 +39,8 @@ vnoremap < <gv
 vnoremap > >gv
 
 " ESC key no more
-imap ii <Esc>
 imap jf <Esc>
-imap jj <Esc>
-imap `` <Esc>
+vnoremap jf <Esc>
 
 " General settings
 set nocompatible
