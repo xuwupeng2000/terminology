@@ -21,11 +21,8 @@
   c = commit
   p = push
 
-  l = log --graph --abbrev-commit --date=relative
-  la = log --graph --abbrev-commit --date=relative --all
-  lp = log -p
+  l = log --abbrev-commit --date=relative --all
 
-	lg = log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --date=relative
   who = "shortlog -ne --format='%h %s'"
 
   delete = !sh -c 'git branch -D $1 && git push origin :$1' -
