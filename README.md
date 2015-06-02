@@ -4,6 +4,7 @@
 
 This is the configs of Jack Wu.
 This script is tested in Ubuntu, and it requires you have git on you system.
+There is a branch for OSX as well. The only different is the setup script.
 
 ### What is included
 
