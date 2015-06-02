@@ -65,7 +65,7 @@ Plugin 'jackwu-figured/vim-open-rubygems'
 Plugin 'xuwupeng2000/vim-rails-apidock'
 Plugin 'xuwupeng2000/vim-youdao'
 
-Plugin 'Shougo/neocomplcache'
+Plugin 'Shougo/neocomplete'
 Plugin 'Shougo/neosnippet.vim'
 Plugin 'xuwupeng2000/neosnippet-snippets'
 

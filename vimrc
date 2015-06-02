@@ -9,7 +9,7 @@ set t_Co=256
 set background=dark
 
 hi CursorLine term=none cterm=none ctermbg=236
-colorscheme Tomorrow
+colorscheme Tomorrow-Night-Blue
 
 syntax on
 
@@ -18,7 +18,6 @@ nnoremap gj <c-w>j
 nnoremap gk <c-w>k
 nnoremap gh <c-w>h
 nnoremap gl <c-w>l
-
 " Quit Vim
 nnoremap <leader>q :q<CR>
 nnoremap <leader>s :w<CR>
@@ -81,9 +80,18 @@ cabbrev bc BundleClean
 " ColorScheme Browse
 cabbrev cs ColorSchemeBrowse
 
-" Neocomplcache
-let g:neocomplcache_enable_at_startup=1
+" Neocomplete
+let g:neocomplete#enable_at_startup = 1
 let g:neosnippet#snippets_directory='~/.vim/bundle/neosnippet-snippets/neosnippets/'
+let g:neocomplete#enable_auto_select=1
+let g:neocomplete#enable_auto_delimiter=0
+let g:neosnippet#enable_preview=0
+set completeopt-=preview
+autocmd InsertLeave * NeoSnippetClearMarkers
+
+" Expand NeoBundle with tab
+imap <expr><TAB> neosnippet#expandable_or_jumpable() ?  "\<Plug>(neosnippet_expand_or_jump)" : "\<TAB>"
+smap <expr><TAB> neosnippet#expandable_or_jumpable() ?  "\<Plug>(neosnippet_expand_or_jump)" : "\<TAB>"
 
 imap <C-k>     <Plug>(neosnippet_expand_or_jump)
 smap <C-k>     <Plug>(neosnippet_expand_or_jump)
