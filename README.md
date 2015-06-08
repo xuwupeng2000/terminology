@@ -13,7 +13,8 @@ A install script is included it can help you setup:
 - rbenv
 
 ```bash
-git clone git@github.com:xuwupeng2000/terminology.git && cd terminology && bash ./install.sh
+git clone git@github.com:xuwupeng2000/terminology.git
+cd terminology && bash ./install.sh
 
 ```
 
