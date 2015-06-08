@@ -37,9 +37,7 @@
 [push]
 	default = current
 [diff]
-	tool = meld
 [merge]
-  tool = meld
 [mergetool]
 	prompt = true
 [difftool]
