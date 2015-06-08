@@ -10,14 +10,11 @@ export LC_ALL="en_NZ.UTF-8"
 # Enable some of the oh-my-zsh.sh plugins
 plugins=(gem git git-hubflow sublime rails rbenv ruby)
 
-
 # For OSX
 if [[ "$(uname)" == 'Darwin' ]]; then
   echo "OSX mode"
 else
   echo "Linux mode"
-  alias o='nautilus'
-  alias open='firefox'
   alias ack='ack-grep'
 fi
 
@@ -32,7 +29,7 @@ alias tmux="TERM=screen-256color-bce tmux"
 
 alias zc='vi ~/.zshrc'
 alias vc='vi ~/.vimrc'
-alias vd='cd ~/.vim/terminology'
+alias vd='cd ~/.vim'
 
 
 # Rbenv
