@@ -9,21 +9,13 @@ Plugin 'mattn/webapi-vim'
 Plugin 'Lokaltog/vim-easymotion'
 Plugin 'justinmk/vim-sneak'
 Plugin 'tpope/vim-surround'
-Plugin 'godlygeek/tabular'
 Plugin 'Raimondi/delimitMate'
-Plugin 'kana/vim-textobj-user'
 Plugin 'michaeljsmith/vim-indent-object'
-Plugin 'nelstrom/vim-textobj-rubyblock'
 
 " Look and feel
-Plugin 'croaky/vim-colors-github'
 Plugin 'nanotech/jellybeans.vim'
-Plugin 'w0ng/vim-hybrid'
 Plugin 'chriskempson/vim-tomorrow-theme'
 Plugin 'altercation/vim-colors-solarized'
-Plugin 'google/vim-colorscheme-primary'
-
-Plugin 'vim-scripts/colorsupport.vim'
 
 Plugin 'mhinz/vim-signify'
 Plugin 'bling/vim-airline'
@@ -32,20 +24,11 @@ Plugin 'jeetsukumaran/vim-markology'
 Plugin 'Yggdroot/indentLine'
 
 " Miscellaneous
-Plugin 'chrisbra/vim-diff-enhanced'
-Plugin 'int3/vim-extradite'
-Plugin 'duggiefresh/vim-easydir'
 Plugin 'tacahiroy/ctrlp-funky'
-Plugin 'gregsexton/gitv'
-Plugin 'gabesoft/vim-ags'
-
-Plugin 'pbrisbin/vim-mkdir'
-Plugin 'christoomey/vim-run-interactive'
 Plugin 'vim-scripts/ZoomWin'
 Plugin 'ntpeters/vim-better-whitespace'
 
 Plugin 'vim-scripts/file-line'
-Plugin 'mattn/gist-vim'
 Plugin 'tpope/vim-fugitive'
 Plugin 'mattn/emmet-vim'
 Plugin 'scrooloose/nerdcommenter'
@@ -57,10 +40,6 @@ Plugin 'ervandew/supertab'
 Plugin 'sjl/gundo.vim'
 Plugin 'othree/eregex.vim'
 
-Plugin 'majutsushi/tagbar'
-Plugin 'tpope/vim-unimpaired'
-Plugin 'skalnik/vim-vroom'
-
 Plugin 'jackwu-figured/vim-open-rubygems'
 Plugin 'xuwupeng2000/vim-rails-apidock'
 Plugin 'xuwupeng2000/vim-youdao'
@@ -68,11 +47,6 @@ Plugin 'xuwupeng2000/vim-youdao'
 Plugin 'Shougo/neocomplete'
 Plugin 'Shougo/neosnippet.vim'
 Plugin 'xuwupeng2000/neosnippet-snippets'
-
-" Super Ruby autocomplete
-" depending on
-" gem install rcodetools
-Plugin 'osyo-manga/vim-monster'
 
 " Language-related
 Plugin 'vim-ruby/vim-ruby'
@@ -83,19 +57,10 @@ Plugin 'tpope/vim-cucumber'
 
 Plugin 'itspriddle/vim-jquery'
 Plugin 'pangloss/vim-javascript'
-Plugin 'othree/javascript-libraries-syntax.vim'
-Plugin 'jelera/vim-javascript-syntax'
 Plugin 'kchmck/vim-coffee-script'
-
 Plugin 'othree/html5.vim'
 Plugin 'elzr/vim-json'
-
 Plugin 'cakebaker/scss-syntax.vim'
-
-Plugin 'ap/vim-css-color'
-
 Plugin 'hiukkanen/vim-hamlc'
 Plugin 'tpope/vim-haml'
-
-Plugin 'mustache/vim-mustache-handlebars'
 

@@ -5,7 +5,7 @@ DISABLE_CORRECTION="true"
 source $ZSH/oh-my-zsh.sh
 
 export EDITOR=vim
-export LC_ALL="en_NZ.UTF-8"
+export LC_ALL="en_US.UTF-8"
 
 # Enable some of the oh-my-zsh.sh plugins
 plugins=(gem git git-hubflow sublime rails rbenv ruby)
