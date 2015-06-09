@@ -1,9 +1,6 @@
 " Utilities
 Plugin 'tomtom/tlib_vim'
 Plugin 'MarcWeber/vim-addon-mw-utils'
-Plugin 'xolox/vim-misc'
-Plugin 'xolox/vim-shell'
-Plugin 'mattn/webapi-vim'
 
 " Motion and motion objects
 Plugin 'Lokaltog/vim-easymotion'
@@ -17,32 +14,20 @@ Plugin 'nanotech/jellybeans.vim'
 Plugin 'chriskempson/vim-tomorrow-theme'
 Plugin 'altercation/vim-colors-solarized'
 
-Plugin 'mhinz/vim-signify'
 Plugin 'bling/vim-airline'
-Plugin 'kien/rainbow_parentheses.vim'
 Plugin 'jeetsukumaran/vim-markology'
 Plugin 'Yggdroot/indentLine'
 
 " Miscellaneous
-Plugin 'tacahiroy/ctrlp-funky'
-Plugin 'vim-scripts/ZoomWin'
-Plugin 'ntpeters/vim-better-whitespace'
-
 Plugin 'vim-scripts/file-line'
 Plugin 'tpope/vim-fugitive'
 Plugin 'mattn/emmet-vim'
 Plugin 'scrooloose/nerdcommenter'
-Plugin 'mileszs/ack.vim'
 Plugin 'scrooloose/nerdtree'
 Plugin 'kien/ctrlp.vim'
 Plugin 'sickill/vim-pasta'
 Plugin 'ervandew/supertab'
-Plugin 'sjl/gundo.vim'
 Plugin 'othree/eregex.vim'
-
-Plugin 'jackwu-figured/vim-open-rubygems'
-Plugin 'xuwupeng2000/vim-rails-apidock'
-Plugin 'xuwupeng2000/vim-youdao'
 
 Plugin 'Shougo/neocomplete'
 Plugin 'Shougo/neosnippet.vim'
@@ -50,10 +35,8 @@ Plugin 'xuwupeng2000/neosnippet-snippets'
 
 " Language-related
 Plugin 'vim-ruby/vim-ruby'
-Plugin 'tpope/vim-rails'
 Plugin 'muz/vim-gemfile'
 Plugin 'thoughtbot/vim-rspec'
-Plugin 'tpope/vim-cucumber'
 
 Plugin 'itspriddle/vim-jquery'
 Plugin 'pangloss/vim-javascript'
@@ -61,6 +44,5 @@ Plugin 'kchmck/vim-coffee-script'
 Plugin 'othree/html5.vim'
 Plugin 'elzr/vim-json'
 Plugin 'cakebaker/scss-syntax.vim'
-Plugin 'hiukkanen/vim-hamlc'
 Plugin 'tpope/vim-haml'
 

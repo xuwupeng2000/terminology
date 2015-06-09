@@ -5,11 +5,8 @@ filetype off
 
 so ~/.vim/terminology/plugins
 
-set t_Co=256
-set background=dark
-
-hi CursorLine term=none cterm=none ctermbg=236
-colorscheme Tomorrow-Night-Blue
+"set t_Co=256
+colorscheme Tomorrow
 
 syntax on
 
@@ -43,7 +40,7 @@ vnoremap jf <Esc>
 
 " General settings
 set nocompatible
-set laststatus=2 " Double bar
+set laststatus=2
 set autoindent
 set nowrap
 set hlsearch
@@ -54,7 +51,6 @@ set nobackup
 set number
 set smartcase
 set winheight=5
-set winwidth=82
 set mouse=a
 set noswapfile
 set showcmd
@@ -77,16 +73,9 @@ cabbrev bi BundleInstall
 cabbrev bu BundleUpdate
 cabbrev bc BundleClean
 
-" ColorScheme Browse
-cabbrev cs ColorSchemeBrowse
-
 " Neocomplete
 let g:neocomplete#enable_at_startup = 1
 let g:neosnippet#snippets_directory='~/.vim/bundle/neosnippet-snippets/neosnippets/'
-let g:neocomplete#enable_auto_select=1
-let g:neocomplete#enable_auto_delimiter=0
-let g:neosnippet#enable_preview=0
-set completeopt-=preview
 autocmd InsertLeave * NeoSnippetClearMarkers
 
 " Expand NeoBundle with tab
@@ -97,24 +86,3 @@ imap <C-k>     <Plug>(neosnippet_expand_or_jump)
 smap <C-k>     <Plug>(neosnippet_expand_or_jump)
 
 cabbrev ns NeoSnippetEdit -vertical -split
-
-au VimEnter * RainbowParenthesesToggle
-au Syntax   * RainbowParenthesesLoadRound
-au Syntax   * RainbowParenthesesLoadSquare
-au Syntax   * RainbowParenthesesLoadBraces
-
-" Surround
-autocmd FileType eruby let b:surround_61 = "<%= \r %>"
-autocmd FileType eruby let b:surround_45 = "<% \r %>"
-
-filetype plugin on
-filetype plugin indent on
-
-" Rspec
-map <Leader>r :call RunCurrentSpecFile()<CR>
-
-" ZoomWin
-nnoremap <c-w>z :ZoomWin<CR>
-
-" WhiteSpace
-nnoremap <Leader>s :ToggleWhitespace<CR>

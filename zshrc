@@ -10,10 +10,10 @@ export LC_ALL="en_US.UTF-8"
 # Enable some of the oh-my-zsh.sh plugins
 plugins=(gem git git-hubflow sublime rails rbenv ruby)
 
-
 # For OSX
 if [[ "$(uname)" == 'Darwin' ]]; then
   echo "OSX mode"
+  alias o='Open'
 else
   echo "Linux mode"
   alias o='nautilus'
