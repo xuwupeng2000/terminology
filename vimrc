@@ -1,42 +1,49 @@
 let mapleader=","
-set rtp+=~/.vim/terminology/vundle/
+set rtp+=~/.vim/vundle/
 call vundle#rc()
-filetype off
 
-so ~/.vim/terminology/plugins
+" Motion and motion objects
+Plugin 'Lokaltog/vim-easymotion'
+Plugin 'justinmk/vim-sneak'
+Plugin 'tpope/vim-surround'
+Plugin 'Raimondi/delimitMate'
+Plugin 'vim-scripts/file-line'
 
-"set t_Co=256
-colorscheme Tomorrow
+" Miscellaneous
+Plugin 'tpope/vim-fugitive'
+
+Plugin 'scrooloose/nerdcommenter'
+Plugin 'scrooloose/nerdtree'
+
+Plugin 'kien/ctrlp.vim'
+
+Plugin 'Shougo/neocomplete'
+Plugin 'Shougo/neosnippet.vim'
+Plugin 'xuwupeng2000/neosnippet-snippets'
+
+Plugin 'sickill/vim-pasta'
+
+" Looking and feel
+Plugin 'chriskempson/vim-tomorrow-theme'
+Plugin 'nanotech/jellybeans.vim'
+Plugin 'bling/vim-airline'
+
+" Language-related
+Plugin 'vim-ruby/vim-ruby'
+Plugin 'muz/vim-gemfile'
+Plugin 'thoughtbot/vim-rspec'
+
+Plugin 'pangloss/vim-javascript'
+Plugin 'kchmck/vim-coffee-script'
+Plugin 'othree/html5.vim'
+Plugin 'elzr/vim-json'
+Plugin 'cakebaker/scss-syntax.vim'
+Plugin 'tpope/vim-haml'
 
 syntax on
+filetype plugin indent on
 
-" Windoes movement
-nnoremap gj <c-w>j
-nnoremap gk <c-w>k
-nnoremap gh <c-w>h
-nnoremap gl <c-w>l
-" Quit Vim
-nnoremap <leader>q :q<CR>
-nnoremap <leader>s :w<CR>
-
-" Normal mode mappings
-nnoremap <leader>ev :vs $MYVIMRC<CR>
-nnoremap nt :NERDTreeToggle<CR>
-
-" Disable capital K U
-nnoremap K k
-nnoremap U u
-
-" Shortcut for disable hightligting search results
-nnoremap <leader>h :set hlsearch!<CR>
-
-" Visual mode mappings
-vnoremap < <gv
-vnoremap > >gv
-
-" ESC key no more
-imap jf <Esc>
-vnoremap jf <Esc>
+colorscheme Tomorrow
 
 " General settings
 set nocompatible
@@ -50,7 +57,6 @@ set incsearch
 set nobackup
 set number
 set smartcase
-set winheight=5
 set mouse=a
 set noswapfile
 set showcmd
@@ -58,20 +64,33 @@ set title
 set expandtab
 set tabstop=2
 set shiftwidth=2
-" For copy text from other source into vim
-set clipboard=unnamedplus
+set clipboard=unnamed
 
-" Paste Mode
-nnoremap <leader>p :set invpaste paste?<CR>
-set showmode
+" Windoes movement
+nnoremap gj <c-w>j
+nnoremap gk <c-w>k
+nnoremap gh <c-w>h
+nnoremap gl <c-w>l
+
+" Quit Vim
+nnoremap <leader>q :q<CR>
+nnoremap <leader>s :w<CR>
+
+" Shortcut for disable hightligting search results
+nnoremap <leader>h :set hlsearch!<CR>
+
+" Visual mode mappings
+vnoremap < <gv
+vnoremap > >gv
+
+" Vim configs
+nnoremap <leader>ev :vs $MYVIMRC<CR>
+
+" Nerdtree
+nnoremap nt :NERDTreeToggle<CR>
 
 " Ctrlp
 nnoremap <leader>f :CtrlP<CR>
-
-" Vundle
-cabbrev bi BundleInstall
-cabbrev bu BundleUpdate
-cabbrev bc BundleClean
 
 " Neocomplete
 let g:neocomplete#enable_at_startup = 1
