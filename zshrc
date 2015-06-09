@@ -8,7 +8,7 @@ export EDITOR=vim
 export LC_ALL="en_NZ.UTF-8"
 
 # Enable some of the oh-my-zsh.sh plugins
-plugins=(gem git git-hubflow sublime rails rbenv ruby)
+plugins=(gem git git-hubflow rbenv)
 
 # Alias
 alias ll='ls -al'
