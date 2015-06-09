@@ -36,8 +36,6 @@
   user = xuwupeng2000
 [push]
 	default = current
-[diff]
-[merge]
 [mergetool]
 	prompt = true
 [difftool]
