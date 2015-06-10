@@ -1,6 +1,6 @@
 # Zsh configures
 ZSH=$HOME/.myzsh
-ZSH_THEME="gentoo"
+ZSH_THEME="apple"
 DISABLE_CORRECTION="true"
 source $ZSH/oh-my-zsh.sh
 

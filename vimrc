@@ -12,6 +12,10 @@ Plugin 'vim-scripts/file-line'
 " Miscellaneous
 Plugin 'tpope/vim-fugitive'
 
+Plugin 'godlygeek/tabular'
+
+Plugin 'ervandew/supertab'
+
 Plugin 'scrooloose/nerdcommenter'
 Plugin 'scrooloose/nerdtree'
 
@@ -43,6 +47,7 @@ Plugin 'tpope/vim-haml'
 syntax on
 filetype plugin indent on
 
+set t_Co=256
 colorscheme Tomorrow
 
 " General settings
