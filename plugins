@@ -1,39 +1,65 @@
+" Utilities
+Plugin 'tomtom/tlib_vim'
+Plugin 'MarcWeber/vim-addon-mw-utils'
+Plugin 'xolox/vim-misc'
+Plugin 'mattn/webapi-vim'
+
 " Motion and motion objects
 Plugin 'Lokaltog/vim-easymotion'
 Plugin 'justinmk/vim-sneak'
 Plugin 'tpope/vim-surround'
+Plugin 'godlygeek/tabular'
 Plugin 'Raimondi/delimitMate'
-Plugin 'vim-scripts/file-line'
+Plugin 'kana/vim-textobj-user'
+Plugin 'michaeljsmith/vim-indent-object'
+
+" Look and feel
+Plugin 'croaky/vim-colors-github'
+Plugin 'nanotech/jellybeans.vim'
+Plugin 'w0ng/vim-hybrid'
+Plugin 'chriskempson/vim-tomorrow-theme'
+Plugin 'altercation/vim-colors-solarized'
+
+Plugin 'mhinz/vim-signify'
+Plugin 'bling/vim-airline'
+Plugin 'kien/rainbow_parentheses.vim'
+Plugin 'jeetsukumaran/vim-markology'
+Plugin 'Yggdroot/indentLine'
 
 " Miscellaneous
+Plugin 'duggiefresh/vim-easydir'
+Plugin 'gregsexton/gitv'
+Plugin 'vim-scripts/file-line'
+Plugin 'mattn/gist-vim'
 Plugin 'tpope/vim-fugitive'
-
-Plugin 'ervandew/supertab'
-
+Plugin 'mattn/emmet-vim'
 Plugin 'scrooloose/nerdcommenter'
+Plugin 'mileszs/ack.vim'
 Plugin 'scrooloose/nerdtree'
-
 Plugin 'kien/ctrlp.vim'
-
-Plugin 'Shougo/neocomplete'
+Plugin 'sickill/vim-pasta'
+Plugin 'ervandew/supertab'
+Plugin 'sjl/gundo.vim'
+Plugin 'othree/eregex.vim'
+Plugin 'majutsushi/tagbar'
+Plugin 'jackwu-figured/vim-open-rubygems'
+Plugin 'xuwupeng2000/vim-rails-apidock'
+Plugin 'xuwupeng2000/vim-youdao'
+Plugin 'Shougo/neocomplcache'
 Plugin 'Shougo/neosnippet.vim'
 Plugin 'xuwupeng2000/neosnippet-snippets'
 
-Plugin 'sickill/vim-pasta'
-
-" Looking and feel
-Plugin 'chriskempson/vim-tomorrow-theme'
-Plugin 'nanotech/jellybeans.vim'
-Plugin 'bling/vim-airline'
-
 " Language-related
 Plugin 'vim-ruby/vim-ruby'
+Plugin 'tpope/vim-rails'
 Plugin 'muz/vim-gemfile'
 Plugin 'thoughtbot/vim-rspec'
-
-Plugin 'pangloss/vim-javascript'
-Plugin 'kchmck/vim-coffee-script'
+Plugin 'tpope/vim-cucumber'
 Plugin 'othree/html5.vim'
 Plugin 'elzr/vim-json'
 Plugin 'cakebaker/scss-syntax.vim'
+Plugin 'hiukkanen/vim-hamlc'
 Plugin 'tpope/vim-haml'
+Plugin 'pangloss/vim-javascript'
+Plugin 'othree/javascript-libraries-syntax.vim'
+Plugin 'kchmck/vim-coffee-script'
