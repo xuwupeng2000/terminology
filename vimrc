@@ -8,7 +8,7 @@ syntax on
 filetype plugin indent on
 
 set t_Co=256
-colorscheme jellybeans 
+colorscheme Tomorrow
 
 " General settings
 set nocompatible
