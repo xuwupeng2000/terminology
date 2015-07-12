@@ -27,6 +27,7 @@ Plugin 'jeetsukumaran/vim-markology'
 Plugin 'Yggdroot/indentLine'
 
 " Miscellaneous
+Plugin 'wincent/terminus'
 Plugin 'duggiefresh/vim-easydir'
 Plugin 'gregsexton/gitv'
 Plugin 'vim-scripts/file-line'

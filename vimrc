@@ -29,7 +29,7 @@ set title
 set expandtab
 set tabstop=2
 set shiftwidth=2
-set clipboard=unnamed
+"set clipboard=unnamedplus
 
 " Windoes movement
 nnoremap gj <c-w>j
