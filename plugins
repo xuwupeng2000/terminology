@@ -49,7 +49,6 @@ Plugin 'xuwupeng2000/vim-youdao'
 Plugin 'Shougo/neocomplcache'
 Plugin 'Shougo/neosnippet.vim'
 Plugin 'xuwupeng2000/neosnippet-snippets'
-Plugin 'wincent/terminus'
 
 " Language-related
 Plugin 'vim-ruby/vim-ruby'
