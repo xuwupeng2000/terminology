@@ -3,6 +3,7 @@ Plugin 'tomtom/tlib_vim'
 Plugin 'MarcWeber/vim-addon-mw-utils'
 Plugin 'xolox/vim-misc'
 Plugin 'mattn/webapi-vim'
+Plugin 'xolox/vim-shell'
 
 " Motion and motion objects
 Plugin 'Lokaltog/vim-easymotion'
@@ -49,6 +50,7 @@ Plugin 'xuwupeng2000/vim-youdao'
 Plugin 'Shougo/neocomplcache'
 Plugin 'Shougo/neosnippet.vim'
 Plugin 'xuwupeng2000/neosnippet-snippets'
+Plugin 'skalnik/vim-vroom'
 
 " Language-related
 Plugin 'vim-ruby/vim-ruby'
