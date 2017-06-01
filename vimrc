@@ -1,14 +1,15 @@
 let mapleader=","
-set rtp+=~/.vim/vundle/
+set rtp+=~/.vim/bundle/Vundle.vim
 call vundle#rc()
 
-so ~/.vim/plugins
+so ~/.vim/terminology/plugins
 
 syntax on
 filetype plugin indent on
 
 set t_Co=256
 colorscheme Tomorrow
+set guifont=Monaco:h14
 
 " General settings
 set nocompatible
@@ -29,7 +30,9 @@ set title
 set expandtab
 set tabstop=2
 set shiftwidth=2
-"set clipboard=unnamedplus
+set clipboard=unnamedplus
+
+imap jf <Esc>
 
 " Windoes movement
 nnoremap gj <c-w>j

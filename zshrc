@@ -25,4 +25,6 @@ alias vd='cd ~/.vim'
 
 # Rbenv
 export PATH="$HOME/.rbenv/bin:$PATH"
+export PATH=$PATH:/usr/local/bin
 eval "$(rbenv init -)"
+export PATH="/usr/local/bin:$PATH"
