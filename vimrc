@@ -1,51 +1,15 @@
 let mapleader=","
-set rtp+=~/.vim/vundle/
+set rtp+=~/.vim/bundle/Vundle.vim
 call vundle#rc()
 
-" Motion and motion objects
-Plugin 'Lokaltog/vim-easymotion'
-Plugin 'justinmk/vim-sneak'
-Plugin 'tpope/vim-surround'
-Plugin 'Raimondi/delimitMate'
-Plugin 'vim-scripts/file-line'
-
-" Miscellaneous
-Plugin 'tpope/vim-fugitive'
-
-Plugin 'ervandew/supertab'
-
-Plugin 'scrooloose/nerdcommenter'
-Plugin 'scrooloose/nerdtree'
-
-Plugin 'kien/ctrlp.vim'
-
-Plugin 'Shougo/neocomplete'
-Plugin 'Shougo/neosnippet.vim'
-Plugin 'xuwupeng2000/neosnippet-snippets'
-
-Plugin 'sickill/vim-pasta'
-
-" Looking and feel
-Plugin 'chriskempson/vim-tomorrow-theme'
-Plugin 'nanotech/jellybeans.vim'
-Plugin 'bling/vim-airline'
-
-" Language-related
-Plugin 'vim-ruby/vim-ruby'
-Plugin 'muz/vim-gemfile'
-Plugin 'thoughtbot/vim-rspec'
-
-Plugin 'pangloss/vim-javascript'
-Plugin 'kchmck/vim-coffee-script'
-Plugin 'othree/html5.vim'
-Plugin 'elzr/vim-json'
-Plugin 'cakebaker/scss-syntax.vim'
-Plugin 'tpope/vim-haml'
+so ~/.vim/terminology/plugins
 
 syntax on
 filetype plugin indent on
 
-colorscheme jellybeans 
+set t_Co=256
+colorscheme Tomorrow
+set guifont=Monaco:h14
 
 " General settings
 set nocompatible
@@ -66,7 +30,9 @@ set title
 set expandtab
 set tabstop=2
 set shiftwidth=2
-set clipboard=unnamed
+set clipboard=unnamedplus
+
+imap jf <Esc>
 
 " Windoes movement
 nnoremap gj <c-w>j
@@ -103,7 +69,7 @@ autocmd InsertLeave * NeoSnippetClearMarkers
 imap <expr><TAB> neosnippet#expandable_or_jumpable() ?  "\<Plug>(neosnippet_expand_or_jump)" : "\<TAB>"
 smap <expr><TAB> neosnippet#expandable_or_jumpable() ?  "\<Plug>(neosnippet_expand_or_jump)" : "\<TAB>"
 
-imap <C-k>     <Plug>(neosnippet_expand_or_jump)
-smap <C-k>     <Plug>(neosnippet_expand_or_jump)
+imap <C-k> <Plug>(neosnippet_expand_or_jump)
+smap <C-k> <Plug>(neosnippet_expand_or_jump)
 
 cabbrev ns NeoSnippetEdit -vertical -split
