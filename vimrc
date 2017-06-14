@@ -8,7 +8,7 @@ syntax on
 filetype plugin indent on
 
 set t_Co=256
-colorscheme Tomorrow
+colorscheme Tomorrow-Night
 set guifont=Monaco:h14
 
 " General settings
@@ -30,7 +30,16 @@ set title
 set expandtab
 set tabstop=2
 set shiftwidth=2
-set clipboard=unnamedplus
+set clipboard=unnamed
+
+" Speed up
+let loaded_matchparen=1 " Don't load matchit.vim (paren/bracket matching)
+set noshowmatch         " Don't match parentheses/brackets
+set nocursorline        " Don't paint cursor line
+set nocursorcolumn      " Don't paint cursor column
+set lazyredraw          " Wait to redraw
+set scrolljump=8        " Scroll 8 lines at a time at bottom/top
+let html_no_rendering=1 " Don't render italic, bold, links in HTML
 
 imap jf <Esc>
 
