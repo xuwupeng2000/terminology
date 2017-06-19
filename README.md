@@ -1,6 +1,6 @@
-#Jack's Ruby Development Setup
+# Jack's Ruby Development Setup
 
-###NOTE: IT WILL OVERWRITE YOUR OLD CONFIGS.
+### NOTE: IT WILL OVERWRITE YOUR OLD CONFIGS.
 
 This is the configs of Jack Wu.
 
