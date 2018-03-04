@@ -2,7 +2,7 @@ let mapleader=","
 set rtp+=~/.vim/bundle/Vundle.vim
 call vundle#rc()
 
-so ~/.vim/terminology/plugins
+so ~/.vim/plugins
 
 syntax on
 filetype plugin indent on
