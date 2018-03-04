@@ -15,9 +15,7 @@ alias ll='ls -al'
 alias l='ls -1'
 
 alias vi='vim'
-alias v='vim .'
-alias g='gvim .'
-alias tmux="TERM=screen-256color-bce tmux"
+alias g='gvim'
 
 alias zc='vi ~/.zshrc'
 alias vc='vi ~/.vimrc'
