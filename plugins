@@ -62,3 +62,8 @@ Plugin 'elixir-lang/vim-elixir'
 Plugin 'avdgaag/vim-phoenix'
 Plugin 'mxw/vim-jsx'
 
+Plugin 'vim-syntastic/syntastic'
+
+Plugin 'junegunn/fzf'
+Plugin 'junegunn/fzf.vim'
+
