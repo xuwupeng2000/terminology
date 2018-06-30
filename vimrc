@@ -1,6 +1,6 @@
 let mapleader=","
-set rtp+=~/.vim/bundle/Vundle.vim 
-call vundle#begin()
+set rtp+=~/.vim/bundle/Vundle.vim
+call vundle#rc()
 set rtp+=/usr/local/opt/fzf
 
 so ~/.vim/plugins
@@ -10,6 +10,9 @@ filetype plugin indent on
 
 set t_Co=256
 set guifont=Monaco:h14
+"colorscheme Tomorrow
+colorscheme molokai
+"colorscheme gruvbox
 
 " General settings
 set nocompatible
@@ -31,6 +34,7 @@ set expandtab
 set tabstop=2
 set shiftwidth=2
 set clipboard=unnamed
+set smartindent
 
 imap jf <Esc>
 
@@ -74,11 +78,18 @@ smap <C-k> <Plug>(neosnippet_expand_or_jump)
 
 cabbrev ns NeoSnippetEdit -vertical -split
 
+set autoread
 let g:syntastic_auto_loc_list = 1
 let g:syntastic_check_on_w = 1
+let g:syntastic_check_on_open = 0
 let g:syntastic_javascript_checkers = ['eslint']
+"let g:syntastic_ruby_checkers = ['rubocop']
 let g:syntastic_javascript_eslint_exe='$(npm bin)/eslint'
 
 nmap <leader>f :FZF<CR>
 
-call vundle#end()
+let g:better_whitespace_enabled=1
+let g:strip_whitespace_on_save=1
+
+let g:vroom_use_colors=1
+let g:vroom_clear_screen=1
