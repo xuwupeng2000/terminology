@@ -8,7 +8,7 @@ export EDITOR=vim
 export LC_ALL="en_US.UTF-8"
 
 # Enable some of the oh-my-zsh.sh plugins
-plugins=(gem git)
+plugins=(gem git sublime)
 
 # Alias
 alias ll='ls -al'

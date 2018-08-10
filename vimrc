@@ -61,6 +61,9 @@ nnoremap <leader>ev :vs $MYVIMRC<CR>
 " Nerdtree
 nnoremap nt :NERDTreeToggle<CR>
 
+" MRU
+nnoremap mu :Mru<CR>
+
 " Ctrlp
 "nnoremap <leader>f :CtrlP<CR>
 
@@ -87,6 +90,7 @@ let g:syntastic_javascript_checkers = ['eslint']
 let g:syntastic_javascript_eslint_exe='$(npm bin)/eslint'
 
 nmap <leader>f :FZF<CR>
+nmap <leader>r :History<CR>
 
 let g:better_whitespace_enabled=1
 let g:strip_whitespace_on_save=1
