@@ -10,8 +10,8 @@ filetype plugin indent on
 
 set t_Co=256
 set guifont=Monaco:h14
-"colorscheme Tomorrow
-colorscheme molokai
+colorscheme Tomorrow
+"colorscheme molokai
 "colorscheme gruvbox
 
 " General settings

@@ -54,6 +54,7 @@ Plugin 'elzr/vim-json'
 Plugin 'cakebaker/scss-syntax.vim'
 Plugin 'tpope/vim-haml'
 Plugin 'pangloss/vim-javascript'
+Plugin 'mxw/vim-jsx'
 Plugin 'kchmck/vim-coffee-script'
 Plugin 'isRuslan/vim-es6'
 
@@ -65,7 +66,6 @@ Plugin 'thoughtbot/vim-rspec'
 
 Plugin 'elixir-lang/vim-elixir'
 Plugin 'avdgaag/vim-phoenix'
-Plugin 'mxw/vim-jsx'
 
 Plugin 'vim-syntastic/syntastic'
 
@@ -74,3 +74,8 @@ Plugin 'junegunn/fzf.vim'
 Plugin 'ntpeters/vim-better-whitespace'
 
 Plugin 'jparise/vim-graphql'
+
+" Linting
+Plugin 'w0rp/ale'
+
+Plugin 'flowtype/vim-flow'
