@@ -10,8 +10,9 @@ filetype plugin indent on
 
 set t_Co=256
 set guifont=Monaco:h14
-colorscheme Tomorrow
-colorscheme molokai
+colorscheme OceanicNext
+"colorscheme Tomorrow
+"colorscheme molokai
 "colorscheme gruvbox
 
 " General settings
@@ -82,12 +83,12 @@ smap <C-k> <Plug>(neosnippet_expand_or_jump)
 cabbrev ns NeoSnippetEdit -vertical -split
 
 set autoread
-let g:syntastic_auto_loc_list = 1
-let g:syntastic_check_on_w = 1
-let g:syntastic_check_on_open = 0
-let g:syntastic_javascript_checkers = ['eslint']
+"let g:syntastic_auto_loc_list = 1
+"let g:syntastic_check_on_w = 1
+"let g:syntastic_check_on_open = 0
+"let g:syntastic_javascript_checkers = ['eslint']
 "let g:syntastic_ruby_checkers = ['rubocop']
-let g:syntastic_javascript_eslint_exe='$(npm bin)/eslint'
+"let g:syntastic_javascript_eslint_exe='$(npm bin)/eslint'
 
 nmap <leader>f :FZF<CR>
 nmap <leader>r :History<CR>
