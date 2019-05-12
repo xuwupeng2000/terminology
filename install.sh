@@ -17,6 +17,6 @@ ln -sf "$folder/myzsh" ~/.myzsh
 ln -sf "$folder/zshrc" ~/.zshrc
 
 # Ruby
-rm -rf ~/.rbenv
-git clone https://github.com/sstephenson/rbenv.git ~/.rbenv
-git clone https://github.com/sstephenson/ruby-build.git ~/.rbenv/plugins/ruby-build
+# rm -rf ~/.rbenv
+# git clone https://github.com/sstephenson/rbenv.git ~/.rbenv
+# git clone https://github.com/sstephenson/ruby-build.git ~/.rbenv/plugins/ruby-build

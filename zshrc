@@ -35,6 +35,9 @@ alias dcjest='docker-compose exec app yarn jest'
 alias dcrspec='docker-compose exec app env RAILS_ENV=test bundle exec rspec'
 alias dctest='docker-compose exec app env RAILS_ENV=test bundle exec rake test'
 
+alias arts='ssh -i ~/.ssh/artune-staging.pem ubuntu@ec2-13-125-149-148.ap-northeast-2.compute.amazonaws.com'
+alias artprod='ssh -i ~/.ssh/artune-asia.pem ubuntu@ec2-52-78-181-117.ap-northeast-2.compute.amazonaws.com'
+
 export PATH="$HOME/.rbenv/bin:$PATH"
 export PATH="$HOME/.rbenv/shims:$PATH"
 
