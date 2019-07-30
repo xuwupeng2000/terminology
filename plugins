@@ -3,6 +3,7 @@ Plugin 'tomtom/tlib_vim'
 Plugin 'MarcWeber/vim-addon-mw-utils'
 Plugin 'xolox/vim-misc'
 Plugin 'mattn/webapi-vim'
+Plugin 'VundleVim/Vundle.vim'
 Plugin 'xolox/vim-shell'
 
 " Motion and motion objects
@@ -63,7 +64,6 @@ Plugin 'thoughtbot/vim-rspec'
 Plugin 'elixir-lang/vim-elixir'
 Plugin 'avdgaag/vim-phoenix'
 
-Plugin 'vim-syntastic/syntastic'
 Plugin 'junegunn/fzf'
 Plugin 'junegunn/fzf.vim'
 Plugin 'ntpeters/vim-better-whitespace'
@@ -71,7 +71,3 @@ Plugin 'jparise/vim-graphql'
 Plugin 'othree/yajs.vim'
 Plugin 'othree/html5.vim'
 Plugin 'mxw/vim-jsx'
-
-" Linting
-Plugin 'w0rp/ale'
-Plugin 'flowtype/vim-flow'
