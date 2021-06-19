@@ -1,7 +1,7 @@
 #!/usr/bin/bash
 
-git submodule init
-git submodule update
+# git submodule init
+# git submodule update
 
 folder=$(pwd)
 echo "Current Folder: $folder"

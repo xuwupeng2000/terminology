@@ -3,7 +3,63 @@ set rtp+=~/.vim/bundle/Vundle.vim
 call vundle#rc()
 set rtp+=/usr/local/opt/fzf
 
-so ~/.vim/plugins
+" Utilities
+Plugin 'VundleVim/Vundle.vim'
+
+" Motion and motion objects
+Plugin 'Lokaltog/vim-easymotion'
+Plugin 'justinmk/vim-sneak'
+Plugin 'tpope/vim-surround'
+Plugin 'godlygeek/tabular'
+Plugin 'Raimondi/delimitMate'
+Plugin 'michaeljsmith/vim-indent-object'
+
+" Look and feel
+Plugin 'croaky/vim-colors-github'
+Plugin 'nanotech/jellybeans.vim'
+Plugin 'w0ng/vim-hybrid'
+Plugin 'chriskempson/vim-tomorrow-theme'
+Plugin 'altercation/vim-colors-solarized'
+Plugin 'tyrannicaltoucan/vim-deep-space'
+Plugin 'tomasr/molokai'
+Plugin 'morhetz/gruvbox'
+Plugin 'mkarmona/colorsbox'
+Plugin 'Lokaltog/vim-distinguished'
+Plugin 'xuyuanp/nerdtree-git-plugin'
+Plugin 'mhartington/oceanic-next'
+
+" Miscellaneous
+Plugin 'Yggdroot/indentLine'
+Plugin 'vim-scripts/file-line'
+Plugin 'tpope/vim-fugitive'
+Plugin 'mattn/emmet-vim'
+Plugin 'scrooloose/nerdcommenter'
+Plugin 'scrooloose/nerdtree'
+Plugin 'ctrlpvim/ctrlp.vim'
+Plugin 'ervandew/supertab'
+Plugin 'xuwupeng2000/vim-youdao'
+Plugin 'Shougo/neocomplcache'
+Plugin 'Shougo/neosnippet.vim'
+Plugin 'rhysd/clever-f.vim'
+Plugin 'rhysd/committia.vim'
+Plugin 'yegappan/mru'
+
+" Language-related
+Plugin 'elzr/vim-json'
+Plugin 'cakebaker/scss-syntax.vim'
+Plugin 'tpope/vim-haml'
+
+Plugin 'skalnik/vim-vroom'
+Plugin 'vim-ruby/vim-ruby'
+Plugin 'tpope/vim-rails'
+Plugin 'muz/vim-gemfile'
+Plugin 'thoughtbot/vim-rspec'
+
+Plugin 'junegunn/fzf'
+Plugin 'junegunn/fzf.vim'
+Plugin 'ntpeters/vim-better-whitespace'
+Plugin 'jparise/vim-graphql'
+Plugin 'othree/html5.vim'
 
 syntax on
 filetype plugin indent on
@@ -62,11 +118,6 @@ nnoremap <leader>ev :vs $MYVIMRC<CR>
 " Nerdtree
 nnoremap nt :NERDTreeToggle<CR>
 
-" MRU
-nnoremap mu :Mru<CR>
-
-" Ctrlp
-"nnoremap <leader>f :CtrlP<CR>
 
 " Neocomplete
 let g:neocomplete#enable_at_startup = 1
@@ -82,19 +133,8 @@ smap <C-k> <Plug>(neosnippet_expand_or_jump)
 
 cabbrev ns NeoSnippetEdit -vertical -split
 
-"set autoread
-"let g:syntastic_auto_loc_list = 0
-"let g:syntastic_check_on_w = 0
-"let g:syntastic_check_on_open = 0
-"let g:syntastic_javascript_checkers = ['eslint']
-"let g:syntastic_ruby_checkers = ['rubocop']
-"let g:syntastic_javascript_eslint_exe='$(npm bin)/eslint'
-
 nmap <leader>f :FZF<CR>
 nmap <leader>r :History<CR>
 
 let g:better_whitespace_enabled=1
 let g:strip_whitespace_on_save=1
-
-let g:vroom_use_colors=1
-let g:vroom_clear_screen=1
