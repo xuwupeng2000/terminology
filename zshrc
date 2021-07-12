@@ -27,5 +27,8 @@ eval "$(rbenv init -)"
 export PATH="/usr/local/bin:$PATH"
 export WEB_CONCURRENCY=1
 export ANDROID_HOME="/Users/pengwu/Library/Android/sdk"
-export PATH="$(brew --prefix qt@5.5)/bin:$PATH"
 export DATABASE_PASSWORD=reallyStrongPwd123
+
+export NVM_DIR="$HOME/.nvm"
+  [ -s "/usr/local/opt/nvm/nvm.sh" ] && . "/usr/local/opt/nvm/nvm.sh"  # This loads nvm
+  [ -s "/usr/local/opt/nvm/etc/bash_completion.d/nvm" ] && . "/usr/local/opt/nvm/etc/bash_completion.d/nvm"  # This loads nvm bash_completion
