@@ -19,8 +19,11 @@ alias vc='vi ~/.vimrc'
 alias dcu='docker-compose up'
 alias dcs='docker-compose stop'
 
+alias g='gvim'
+
 export PATH="$HOME/.rbenv/bin:$PATH"
 export PATH="$HOME/.rbenv/shims:$PATH"
+export PATH="$HOME/.bin:$PATH"
 
 eval "$(rbenv init -)"
 
@@ -32,3 +35,6 @@ export DATABASE_PASSWORD=reallyStrongPwd123
 export NVM_DIR="$HOME/.nvm"
   [ -s "/usr/local/opt/nvm/nvm.sh" ] && . "/usr/local/opt/nvm/nvm.sh"  # This loads nvm
   [ -s "/usr/local/opt/nvm/etc/bash_completion.d/nvm" ] && . "/usr/local/opt/nvm/etc/bash_completion.d/nvm"  # This loads nvm bash_completion
+export GOPATH=$HOME/go
+
+export PATH=$GOPATH/bin:$PATH

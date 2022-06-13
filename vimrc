@@ -48,6 +48,7 @@ Plugin 'yegappan/mru'
 Plugin 'elzr/vim-json'
 Plugin 'cakebaker/scss-syntax.vim'
 Plugin 'tpope/vim-haml'
+Plugin 'fatih/vim-go'
 
 Plugin 'skalnik/vim-vroom'
 Plugin 'vim-ruby/vim-ruby'

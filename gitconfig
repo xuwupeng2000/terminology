@@ -1,7 +1,7 @@
 [user]
 	name = Jack.Wu
   username = xuwupeng2000
-	email = xuwupeng2000@gmail.com
+	email = jwu4000@outlook.com
 [http]
 [color]
   status = auto
@@ -49,3 +49,5 @@
 	required = true
 [pager]
 	branch = false
+[init]
+	defaultBranch = master
